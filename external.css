@@ -1,0 +1,68 @@
+.image{
+    width: 120px;
+    height: 120px;
+    float: left;
+    padding: 20px;
+    border: solid;
+    border-radius: 5px;
+    
+}
+.introduction1{
+    font-size: 20px;
+    text-align:left;
+    border: solid;
+    border-radius: 5px;
+    display: block;    
+}
+.flexrow{
+    display: flex;
+    flex-direction: row;
+}
+.flexcolumn{
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+    padding: 10px;
+}
+.flexcolumnmain{
+    display: flex;
+    flex-direction: column;
+    flex: 60%;
+    padding-left: 10px;
+}
+.header{
+  padding: 60px;
+  text-align: center;
+  color: white;
+  background-image: url(pic1.jpg);
+  background-size: contain;
+}
+tr:nth-child(odd) td{
+    background-color: moccasin
+}
+tr:nth-child(Even) td{
+    background-color: darkkhaki
+}
+table{
+    text-align: center;
+    width: 60%;
+}
+body{
+    font-family:sans-serif;
+}
+span{
+    font-weight: bold;
+    color: red;
+}
+a:hover{
+    color: white;
+    background-color: black;
+}
+hr{
+    padding-top: 2px;
+}
+.footer{
+    padding: 20px;
+    background-color: gray;
+    width: 100%;
+}
